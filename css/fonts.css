@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter/");
+  src: url("../fonts/inter/?#iefix") format("embedded-opentype"),
+    url("../fonts/inter/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/inter/Inter-Regular.woff") format("woff"),
+    url("../fonts/inter/Inter-Regular.ttf") format("truetype"),
+    url("../fonts/inter/Inter-Regular.svg#Inter-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/poppins/Poppins-Bold.eot");
+  src: url("../fonts/poppins/Poppins-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins/Poppins-Bold.woff2") format("woff2"),
+    url("../fonts/poppins/Poppins-Bold.woff") format("woff"),
+    url("../fonts/poppins/Poppins-Bold.ttf") format("truetype"),
+    url("../fonts/poppins/Poppins-Bold.svg#Poppins-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('../fonts/permanent-marker/PermanentMarker-Regular.eot');
+  src: url('../fonts/permanent-marker/PermanentMarker-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/permanent-marker/PermanentMarker-Regular.woff2') format('woff2'),
+      url('../fonts/permanent-marker/PermanentMarker-Regular.woff') format('woff'),
+      url('../fonts/permanent-marker/PermanentMarker-Regular.ttf') format('truetype'),
+      url('../fonts/permanent-marker/PermanentMarker-Regular.svg#PermanentMarker-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Changa';
+  src: url('../fonts/changa/Changa-Regular.eot');
+  src: url('../fonts/changa/Changa-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/changa/Changa-Regular.woff2') format('woff2'),
+      url('../fonts/changa/Changa-Regular.woff') format('woff'),
+      url('../fonts/changa/Changa-Regular.ttf') format('truetype'),
+      url('../fonts/changa/Changa-Regular.svg#Changa-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
