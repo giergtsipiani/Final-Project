@@ -31,8 +31,7 @@ nav {
   transition: all 0.3s linear 0.05s;
 }
 .li-item:nth-child(1)::after {
-   
-}  
+}
 .li-item:hover {
   text-shadow: 1px 1px 2px rgb(185, 130, 130), 0 0 1em rgb(74, 74, 168),
     0 0 0.2em rgb(33, 33, 105);
