@@ -25,27 +25,60 @@
 }
 
 @font-face {
-  font-family: 'Permanent Marker';
-  src: url('../fonts/permanent-marker/PermanentMarker-Regular.eot');
-  src: url('../fonts/permanent-marker/PermanentMarker-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/permanent-marker/PermanentMarker-Regular.woff2') format('woff2'),
-      url('../fonts/permanent-marker/PermanentMarker-Regular.woff') format('woff'),
-      url('../fonts/permanent-marker/PermanentMarker-Regular.ttf') format('truetype'),
-      url('../fonts/permanent-marker/PermanentMarker-Regular.svg#PermanentMarker-Regular') format('svg');
+  font-family: "Permanent Marker";
+  src: url("../fonts/permanent-marker/PermanentMarker-Regular.eot");
+  src: url("../fonts/permanent-marker/PermanentMarker-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/permanent-marker/PermanentMarker-Regular.woff2")
+      format("woff2"),
+    url("../fonts/permanent-marker/PermanentMarker-Regular.woff") format("woff"),
+    url("../fonts/permanent-marker/PermanentMarker-Regular.ttf")
+      format("truetype"),
+    url("../fonts/permanent-marker/PermanentMarker-Regular.svg#PermanentMarker-Regular")
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Changa';
-  src: url('../fonts/changa/Changa-Regular.eot');
-  src: url('../fonts/changa/Changa-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/changa/Changa-Regular.woff2') format('woff2'),
-      url('../fonts/changa/Changa-Regular.woff') format('woff'),
-      url('../fonts/changa/Changa-Regular.ttf') format('truetype'),
-      url('../fonts/changa/Changa-Regular.svg#Changa-Regular') format('svg');
+  font-family: "Changa";
+  src: url("../fonts/changa/Changa-Regular.eot");
+  src: url("../fonts/changa/Changa-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/changa/Changa-Regular.woff2") format("woff2"),
+    url("../fonts/changa/Changa-Regular.woff") format("woff"),
+    url("../fonts/changa/Changa-Regular.ttf") format("truetype"),
+    url("../fonts/changa/Changa-Regular.svg#Changa-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/rubik/Rubik-Bold.eot');
+  src: url('../fonts/rubik/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/rubik/Rubik-Bold.woff2') format('woff2'),
+      url('../fonts/rubik/Rubik-Bold.woff') format('woff'),
+      url('../fonts/rubik/Rubik-Bold.ttf') format('truetype'),
+      url('../fonts/rubik/Rubik-Bold.svg#Rubik-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/bebas-neue/BebasNeue-Regular.eot');
+  src: url('../fonts/bebas-neue/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/bebas-neue/BebasNeue-Regular.woff2') format('woff2'),
+      url('../fonts/bebas-neue/BebasNeue-Regular.woff') format('woff'),
+      url('../fonts/bebas-neue/BebasNeue-Regular.ttf') format('truetype'),
+      url('../fonts/bebas-neue/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
