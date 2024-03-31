@@ -9,7 +9,7 @@ header {
   top: 0;
   display: flex;
   height: 10rem;
-
+  z-index: 100;
   background-color: white;
   opacity: 0.8;
   width: 100%;
@@ -108,6 +108,7 @@ nav {
 .sidebar {
   background-color: white;
   padding: 0.2rem 0.3rem 1.5rem;
+  z-index: 100;
   opacity: 0.8;
   position: fixed;
   left: 0;
@@ -230,7 +231,43 @@ h1::before {
   height: 40rem;
   object-fit: cover;
 }
+/* !section2-naruto_personality */
+.naruto-personality {
+  margin-top: 2rem;
+}
 
+.section2-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* opacity: 0.8; */
+  max-width: 1110px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2.75rem 1.8rem;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2rem;
+}
+.section2-text-box {
+  grid-column: span 1;
+}
+.section2-text-box h2 {
+  font: 3.5rem/1.2 "Bebas Neue", sans-sarif;
+}
+.section2-text-box p {
+  font: 700 1rem/1.2rem "Helvetica Neue", Helvetica, arial, sans-sarif;
+  margin-top: 1rem;
+  max-width: 32.5rem;
+}
+.section2-img-box {
+  max-width: 27rem;
+  opacity: 1;
+}
+.section2-img-box img {
+  opacity: 0.8;
+}
+.section2-img-box img:nth-child(1) {
+  width: 100%;
+}
 /* !story */
 .story-container {
   background-color: #494946;
