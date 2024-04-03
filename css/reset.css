@@ -53,3 +53,22 @@ a {
 * {
     box-sizing: border-box;
 }
+
+/* background color while sellection is active */
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+span::selection,
+a::selection,
+td::selection,
+th::selection,
+tr::selection,
+div::selection,
+img::selection,
+table::selection {
+  background-color: #b3a20e;
+}

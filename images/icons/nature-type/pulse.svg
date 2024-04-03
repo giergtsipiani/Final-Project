@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   width="100"
+   height="100.00001"
+   sodipodi:docname="Nature Icon Pulse.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3350">
+    <linearGradient
+       id="linearGradientPulse">
+      <stop
+         offset="0"
+         id="stopPulse0"
+         style="stop-color:#bf00ff;stop-opacity:1;" />
+      <stop
+         id="stopPulse0.25"
+         offset="0.25"
+         style="stop-color:#7df9ff;stop-opacity:1" />
+      <stop
+         id="stopPulse0.5"
+         offset="0.5"
+         style="stop-color:#bf00ff;stop-opacity:1" />
+      <stop
+         offset="0.75"
+         id="stopPulse0.75"
+         style="stop-color:#7df9ff;stop-opacity:1" />
+      <stop
+         id="stopPulse1"
+         offset="1"
+         style="stop-color:#bf00ff;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="50"
+       fy="49.999996"
+       fx="49.999996"
+       cy="49.999996"
+       cx="49.999996"
+       id="radialGradientPulse"
+       xlink:href="#linearGradientPulse"
+       inkscape:collect="always"
+       gradientTransform="translate(1.8875122e-4,-1.7824878e-4)" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="940"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="50"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="71.176239"
+     inkscape:cy="23.839451"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:current-layer="svg3347"
+     inkscape:snap-center="true"
+     inkscape:object-nodes="false"
+     inkscape:window-maximized="1" />
+  <path
+     id="Pulse icon"
+     style="fill:url(#radialGradientPulse);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 26.415089,7.5471718 4.71699,-4.716983 37.73585,0 4.71698,4.716984 9.43396,0 0,9.4339612 9.43396,0 0,9.43396 4.71698,4.716984 0,37.73585 -4.71698,4.716981 0,9.433962 -9.43396,0 0,9.433958 -9.43396,0 -4.71698,4.71699 -37.73585,0 -4.71699,-4.71699 -9.43396,0 0,-9.433958 -9.4339602,0 0,-9.43396 -4.71698,-4.716983 0,-37.73585 4.71698,-4.716982 0,-9.433962 9.4339602,0 0,-9.4339622 9.43396,0 z"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccc" />
+  <path
+     d="m 47.941669,73.564225 c 1.71524,-0.831191 3.51628,-2.077973 5.40311,-3.740353 l -28.81658,5.236493 c -0.17153,1.163661 -0.60035,1.413018 -1.28645,0.748071 l -1.54375,-5.48585 14.92287,-1.745498 0,-4.488423 -12.09267,0 0,-3.989709 12.09267,0 0,-3.740353 -5.91769,0 -5.6604,0 0,-17.704335 11.57809,0 0,-3.490995 -14.92287,0 0,-3.98971 14.92287,0 0,-2.992281 c -4.28819,0.166281 -8.57637,0.332519 -12.86454,0.498713 l -0.77188,-4.239066 c 8.40483,4.8e-5 17.41,-0.91426 27.01555,-2.742925 l 2.31562,4.239066 c 0.51454,0.997472 -4e-5,1.16371 -1.54375,0.498714 -3.6021,0.498758 -6.86111,0.914353 -9.77705,1.246784 l 0,3.490995 14.151,0 0,3.98971 -14.151,0 0,3.490995 11.83538,0 0,17.704335 -11.83538,0 0,3.740353 12.86454,0 0,3.989709 -12.86454,0 0,3.740352 12.86454,-1.994854 0,3.490995 c 4.97425,-4.322177 7.54716,-10.888568 7.71873,-19.69919 l 0.25729,-9.724916 -6.17498,0 0,-4.737779 6.17498,0 0,-12.717199 4.88853,0 c 1.37217,0.166288 1.45793,0.665002 0.25729,1.496141 l 0,11.221058 11.3208,0 -0.51458,32.915101 c -0.17159,5.984562 -2.40144,8.976842 -6.68957,8.976845 l -6.94685,0 -0.77187,-4.737779 5.91769,0 c 2.05827,0 3.1732,-1.745497 3.34478,-5.236493 l 0.77187,-27.179895 -6.43227,0 -0.25729,11.719772 c -0.17158,11.470423 -5.40315,20.364141 -15.69475,26.68118 l -3.08749,-4.737779 z m -6.94685,-24.686326 0,4.488422 7.46143,0 0,-4.488422 z m 0,-7.231349 0,4.239067 7.46143,0 0,-4.239067 z m -11.57809,7.231349 0,4.488422 7.20414,0 0,-4.488422 z m 0,-7.231349 0,4.239067 7.20414,0 0,-4.239067 z"
+     id="Pulse kanji" />
+</svg>

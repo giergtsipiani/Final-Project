@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   width="100"
+   height="100"
+   sodipodi:docname="Nature Icon Bacteria.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3350">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 50 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="100 : 50 : 1"
+       inkscape:persp3d-origin="50 : 33.333333 : 1"
+       id="perspective13" />
+    <linearGradient
+       id="linearGradientBacteria">
+      <stop
+         offset="0"
+         id="stopBacteria0"
+         style="stop-color:#ff3800;stop-opacity:1;" />
+      <stop
+         id="stopBacteria1"
+         offset="1"
+         style="stop-color:#66b032;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="50"
+       fy="49.999996"
+       fx="49.999996"
+       cy="49.999996"
+       cx="49.999996"
+       id="radialGradientBacteria"
+       xlink:href="#linearGradientBacteria"
+       inkscape:collect="always"
+       gradientTransform="translate(1.8875122e-4,-1.8124878e-4)" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="940"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="50"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="35.051239"
+     inkscape:cy="-73.941799"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:current-layer="svg3347"
+     inkscape:snap-center="true"
+     inkscape:object-nodes="false"
+     inkscape:window-maximized="1" />
+  <path
+     id="Bacteria icon"
+     style="fill:url(#radialGradientBacteria);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 26.415089,7.5471688 4.71699,-4.71698 37.73585,0 4.71698,4.71698 9.43396,0 0,9.4339602 9.43396,0 0,9.43396 4.71698,4.716984 0,37.73585 -4.71698,4.716981 0,9.433962 -9.43396,0 0,9.433958 -9.43396,0 -4.71698,4.71699 -37.73585,0 -4.71699,-4.71699 -9.43396,0 0,-9.433958 -9.4339602,0 0,-9.43396 -4.71698,-4.716983 0,-37.73585 4.71698,-4.716982 0,-9.433962 9.4339602,0 0,-9.4339602 9.43396,0 z"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccc" />
+  <path
+     d="m 34.335169,43.84739 c 11.23302,-0.32811 20.18434,-1.066422 26.85399,-2.214939 l 2.36947,2.953252 c 1.05305,1.312584 0.70202,1.722757 -1.0531,1.230522 -3.33485,0.328166 -6.75741,0.57427 -10.2677,0.738313 l 0,3.691565 13.69027,0 0,3.93767 -12.90044,0 c 4.38786,4.101753 9.56559,6.972968 15.53319,8.613652 l -1.84292,4.675983 c -5.09002,-1.47662 -9.91671,-4.429869 -14.4801,-8.859757 l 0,10.828588 -4.47566,0 0,-10.582483 c -2.98381,3.445471 -7.63498,6.480755 -13.95355,9.10586 l -2.10619,-4.183774 c 6.66959,-2.461032 11.84732,-5.660385 15.53319,-9.598069 l -13.16372,0 0,-3.93767 13.69027,0 0,-3.199356 -12.3739,0.492209 z m -4.21239,-4.183774 0,31.747463 39.49116,0 0,-31.747463 z m 31.32966,-3.937669 12.63717,0 0,41.591632 -4.47567,0 0,-1.96883 -39.49116,0 0,2.95325 -4.47566,0 0,-42.576052 12.11062,0 0,-4.429878 -16.05974,0 0,-3.93767 16.05974,0 0,-5.6604 4.21239,0 c 1.40411,0.16412 1.49186,0.656329 0.26328,1.476626 l 0,4.183774 14.74336,0 0,-5.6604 4.21239,0 c 1.40409,0.16412 1.49185,0.656329 0.26328,1.476626 l 0,4.183774 16.84956,0 0,3.93767 -16.84956,0 z m -19.21903,0 14.74336,0 0,-4.429878 -14.74336,0 z"
+     id="Bacteria kanji" />
+</svg>
