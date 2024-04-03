@@ -401,6 +401,11 @@ hr {
   vertical-align: middle;
   opacity: 0.8;
 }
+.character-table td sup {
+  vertical-align: super;
+  font: italic 300 0.75rem/1rem "Changa", sans-serif;
+  color: #3a3a3a;
+}
 .character-table th {
   background-color: #c5c5c5;
   /* opacity: 0.8; */
@@ -418,6 +423,9 @@ hr {
   font: 400 0.85rem/1rem "Changa", sans-serif;
   color: #3a3a3a;
 }
+/* .td-left-padding {
+  padding-left: 1rem;
+} */
 .character-table td img {
   margin: 0.1rem 0;
   width: 1.1rem;
