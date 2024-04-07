@@ -43,8 +43,7 @@ nav {
 .li-item {
   transition: all 0.3s linear 0.05s;
 }
-.li-item:nth-child(1)::after {
-}
+
 .li-item:hover {
   text-shadow: 1px 1px 2px rgb(185, 130, 130), 0 0 1em rgb(74, 74, 168),
     0 0 0.2em rgb(33, 33, 105);
@@ -188,8 +187,7 @@ nav ul li.active a {
     0.2em 0.2em 0.5em rgba(70, 38, 131, 0.6);
 }
 /* !main */
-main {
-}
+
 /* !main (section1) */
 .main-container {
   display: flex;
@@ -419,13 +417,11 @@ hr {
 .character-table {
   border-collapse: collapse;
   width: 100%;
-}
-
-.character-table tbody:nth-child(1) {
-  background-image: url(../images/main/characters/naruto/naruto-theme.webp);
+  background-image: url(../images/main/characters/character_profile-bg.webp);
   background-size: cover;
   background-position: center;
 }
+
 .character-table th,
 .character-table td {
   border: 1px solid #aaaaaa;
