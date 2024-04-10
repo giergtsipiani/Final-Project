@@ -24,14 +24,15 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <header>
+    <header class="hidden" id="header">
       <div class="header-container">
         <a href="index.html">
           <img src="images/naruto-logo.svg" alt="naruto-logo" />
         </a>
         <nav>
           <ul class="nav-ul">
-            <li class="li-item active"><a href="#main">Main</a></li>
+            <li class="li-item"><a href="#home">Home</a></li>
+            <li class="li-item"><a href="#naruto">Naruto</a></li>
             <li class="li-item"><a href="#story">Story</a></li>
             <li class="li-item"><a href="#characters">Characters</a></li>
             <li class="li-item"><a href="#jutsus">Jutsus</a></li>
@@ -46,7 +47,7 @@
       </div>
     </header>
     <!-- !sidebar -->
-    <aside class="sidebar">
+    <aside class="sidebar hidden" id="sidebar">
       <div class="sidebar-container">
         <a href="https://naruto-official.com/en" target="_blank" id="fandom"
           ><div class="sidebar-items">
@@ -60,10 +61,7 @@
           </div></a
         >
 
-        <a
-          href="https://m.fanfiction.net/search/?type=story&keywords=naruto&genreid=0&subgenreid=0&characterid=0&subcharacterid=0&words=0&ready=1&categoryid=1402&match=any&formatid=any&sort=0&languageid=0&genreid=0&characterid=0&statusid=0&censorid=0&words=0"
-          target="_blank"
-        >
+        <a href="https://naruto.fandom.com/wiki/Narutopedia" target="_blank">
           <div class="sidebar-items">
             <div class="icon-box">
               <img src="images/icons/panel/search-icon.svg" alt="search-icon" />
@@ -143,11 +141,11 @@
       </div>
     </aside>
 
-    <main>
-      <!-- !section 1 - main  -->
-      <section id="main">
-        <div class="main-container">
-          <div class="main-text">
+    <main class="hidden" id="main">
+      <!-- !section 1 - home  -->
+      <section id="home">
+        <div class="home-container">
+          <div class="home-text">
             <div class="h1-box">
               <h1>NARUTO</h1>
             </div>
@@ -171,13 +169,17 @@
               this amazing story for yourself!
             </p>
           </div>
-          <div class="main-img">
-            <img src="images/main/main-section1/hero.webp" alt="naruto_hero" />
+          <div class="home-img">
+            <img
+              class="img-animation"
+              src="images/main/home/hero.webp"
+              alt="naruto_hero"
+            />
           </div>
         </div>
       </section>
-      <!-- !section 2 - naruto-personality -->
-      <section class="naruto-personality">
+      <!-- !section 2 - naruto -->
+      <section class="naruto" id="naruto">
         <div class="section2-wrapper">
           <div class="section2-text-box">
             <h2>NARUTO</h2>
@@ -208,11 +210,11 @@
           </div>
           <div class="section2-img-box">
             <img
-              src="images/main/personality-section2/naruto_personality.webp"
+              src="images/main/naruto/naruto_personality.webp"
               alt="naruto-photo"
             />
             <img
-              src="images/main/personality-section2/naruto_personality2.webp"
+              src="images/main/naruto/naruto_personality2.webp"
               alt="naruto-photo"
             />
           </div>
@@ -244,7 +246,7 @@
           </div>
           <div class="story-img-box">
             <img
-              src="images/main/story-section3/kyuubi_attack_on_konoha.webp"
+              src="images/main/story/kyuubi_attack_on_konoha.webp"
               alt="kyuubi_attack_on_konoha"
             />
           </div>
@@ -5388,11 +5390,11 @@
             <div class="character-info">
               <h4 class="character_name">Madara Uchiha</h4>
               <p>
-                Madara Uchiha (うちはマダラ) was the legendary
-                leader of the Uchiha Clan. He founded Konohagakure alongside his
-                childhood friend and rival, Hashirama Senju, with the intention
-                of bringing about an era of peace. When the two couldn't agree
-                on how to achieve that peace, they fought for control of the
+                Madara Uchiha (うちはマダラ) was the legendary leader of the
+                Uchiha Clan. He founded Konohagakure alongside his childhood
+                friend and rival, Hashirama Senju, with the intention of
+                bringing about an era of peace. When the two couldn't agree on
+                how to achieve that peace, they fought for control of the
                 village, a conflict which ended in Madara's death. Madara,
                 however, rewrote his death and went into hiding to work on his
                 own plans. Unable to complete it in his natural life, he
@@ -5934,6 +5936,21 @@
           </div>
         </div>
       </section>
+      <section class="quiz" id="quiz">
+        <div class="quiz-wrapper"></div>
+      </section>
+
+      <!-- !scroll to top -->
+      <a href="#home"
+        ><div class="scroll-to-top">
+          <img
+            src="images/icons/scroll-to-top/mangekyou_sharingan-kakashi.svg"
+            alt="mangekyo"
+          />
+
+          <p>Scroll To Top</p>
+        </div></a
+      >
     </main>
 
     <!-- !javascript -->
@@ -5942,6 +5959,6 @@
     <!-- Slick Js file -->
     <script src="slick.min.js"></script>
     <!-- Main js with code -->
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
