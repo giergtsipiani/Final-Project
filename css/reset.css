@@ -130,6 +130,7 @@ table {
 
 a {
   text-decoration: none;
+  color: black;
 }
 * {
   box-sizing: border-box;
@@ -151,6 +152,7 @@ th::selection,
 tr::selection,
 div::selection,
 img::selection,
-table::selection {
+table::selection,
+button::selection {
   background-color: #b3a20e;
 }
