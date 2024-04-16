@@ -7,8 +7,31 @@ function continueButton() {
   // Hide the warning message
   document.getElementById("warning").style.display = "none";
 }
-
 // !scroll to section
+document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll("nav a");
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+
+      const targetId = this.getAttribute("href");
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        const offset = 150; // Adjust as needed
+        const targetPosition = targetElement.offsetTop - offset;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: "smooth",
+        });
+      }
+    });
+  });
+});
+
+// !nav item's active status
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
